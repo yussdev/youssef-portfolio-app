@@ -10,7 +10,7 @@ export const profile = {
     "Senior Software Engineer with 9+ years of experience building scalable web applications. I've delivered and maintained more than 10 production-grade applications across different industries, with a strong understanding of software engineering principles beyond frameworks and tools — deep knowledge of application architecture, system design, and how technologies work from the ground up. Experienced in leading full development lifecycles, from concept and architecture to deployment and production maintenance, across the full stack including backend and Web3.",
   stats: [
     { value: "9+", label: "Years of experience" },
-    { value: "10+", label: "Production apps shipped" },
+    { value: "10+", label: "Production apps" },
     { value: "4", label: "Countries worked with" },
   ],
 };
@@ -137,7 +137,15 @@ export const projects = [
     url: "https://giveth.io/",
     description:
       "Giveth empowers changemakers to accept crypto donations, building the future of giving with zero added fees.",
-    tech: ["Next.js", "Nest.js", "Postgres", "Tailwind", "Web3", "Ethers.js", "Thirdweb"],
+    tech: [
+      "Next.js",
+      "Nest.js",
+      "Postgres",
+      "Tailwind",
+      "Web3",
+      "Ethers.js",
+      "Thirdweb",
+    ],
   },
   {
     name: "Clusterix",
@@ -151,7 +159,14 @@ export const projects = [
     url: "https://ping.exchange/",
     description:
       "A hybrid platform with unparalleled blockchain utilization and a uniquely secure login — the first exchange to offer Core Coin (XCB) and Core Token (CTN).",
-    tech: ["React.js", "Blockchain", "Postgres", "Redis", "Express.js", "CSS-in-JS"],
+    tech: [
+      "React.js",
+      "Blockchain",
+      "Postgres",
+      "Redis",
+      "Express.js",
+      "CSS-in-JS",
+    ],
   },
   {
     name: "Staker — SporkDAO",
