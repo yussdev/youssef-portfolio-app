@@ -16,7 +16,15 @@ export function Experience() {
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
                 <h3 className="text-lg font-semibold">
                   {job.role}{" "}
-                  <span className="text-accent">· {job.company}</span>
+                  <span className="text-subtle">· </span>
+                  <a
+                    href={job.companyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent underline-offset-4 transition-colors hover:underline"
+                  >
+                    {job.company}
+                  </a>
                 </h3>
                 <span className="text-sm text-subtle">{job.period}</span>
               </div>

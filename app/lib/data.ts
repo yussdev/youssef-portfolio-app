@@ -87,6 +87,7 @@ export const experience = [
   {
     role: "Senior Full-Stack Engineer (Tech Lead)",
     company: "Giveth",
+    companyUrl: "https://www.linkedin.com/company/givethio",
     location: "Spain — Remote",
     period: "Mar 2024 – Present",
     points: [
@@ -98,6 +99,7 @@ export const experience = [
   {
     role: "Senior Frontend Engineer",
     company: "Innoscripta SE",
+    companyUrl: "https://www.linkedin.com/company/innoscripta-se/",
     location: "Germany — Remote",
     period: "Jan 2023 – Mar 2024",
     points: [
@@ -108,6 +110,7 @@ export const experience = [
   {
     role: "Senior Frontend Engineer",
     company: "CoDeTech",
+    companyUrl: "https://www.linkedin.com/company/codetechcc/",
     location: "Bratislava",
     period: "Mar 2021 – Dec 2022",
     points: [
@@ -118,6 +121,7 @@ export const experience = [
   {
     role: "Frontend Engineer",
     company: "Devolon",
+    companyUrl: "https://www.linkedin.com/company/devolon",
     location: "Finland",
     period: "Jul 2019 – Feb 2021",
     points: [
