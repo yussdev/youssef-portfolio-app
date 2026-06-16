@@ -119,7 +119,7 @@ export const experience = [
     role: "Senior Full-Stack Engineer (Tech Lead)",
     company: "Giveth",
     companyUrl: "https://www.linkedin.com/company/givethio",
-    location: "Spain — Remote",
+    location: "US — Remote",
     period: "Mar 2024 – Present",
     points: [
       "Led and developed three concurrent projects across frontend and backend systems, managing two frontend applications and one backend service simultaneously.",
