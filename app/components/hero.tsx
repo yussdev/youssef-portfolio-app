@@ -13,14 +13,6 @@ export function Hero() {
         className="animate-float pointer-events-none absolute top-40 right-0 h-64 w-64 translate-x-1/3 rounded-full bg-accent/10 blur-[100px] [animation-delay:-4s]"
       />
       <div className="mx-auto max-w-5xl px-6 pt-20 pb-16 sm:pt-28">
-        <span className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full rounded-full bg-green-500/70 [animation:pulse-ring_2s_cubic-bezier(0.4,0,0.6,1)_infinite]" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
-          </span>
-          Available for new opportunities
-        </span>
-
         <h1 className="animate-fade-up mt-6 text-4xl font-bold tracking-tight [animation-delay:80ms] sm:text-6xl">
           {profile.name}
         </h1>

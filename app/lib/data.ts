@@ -15,9 +15,20 @@ export const profile = {
   ],
 };
 
-export const skillGroups = [
+export type SkillIcon = "ai" | "frontend" | "backend" | "web3" | "architecture";
+
+export type SkillGroup = {
+  title: string;
+  icon: SkillIcon;
+  featured?: boolean;
+  skills: string[];
+};
+
+export const skillGroups: SkillGroup[] = [
   {
     title: "Frontend",
+    icon: "frontend",
+    featured: true,
     skills: [
       "TypeScript",
       "React.js",
@@ -25,10 +36,13 @@ export const skillGroups = [
       "Redux",
       "React-Query",
       "React Router",
-      "SSR",
+      "SSR/CSR/ISR",
+      "Web Performance",
       "Vue.js",
+      "Nuxt.js",
       "Angular",
       "Svelte",
+      "SvelteKit",
       "Tailwind",
       "CSS-in-JS",
       "BEM",
@@ -37,8 +51,10 @@ export const skillGroups = [
       "RWD",
     ],
   },
+
   {
     title: "Backend & APIs",
+    icon: "backend",
     skills: [
       "Node.js",
       "Express.js",
@@ -59,9 +75,10 @@ export const skillGroups = [
   },
   {
     title: "Web3",
+    icon: "web3",
     skills: [
       "Ethers.js",
-      "viem",
+      "Viem",
       "Thirdweb",
       "EVM",
       "Smart Wallets",
@@ -71,6 +88,7 @@ export const skillGroups = [
   },
   {
     title: "System Design",
+    icon: "architecture",
     skills: [
       "Microfrontend",
       "Microservices",
@@ -79,6 +97,19 @@ export const skillGroups = [
       "Design Patterns",
       "FP / OOP",
       "Reactive Programming",
+    ],
+  },
+  {
+    title: "AI & Agents",
+    icon: "ai",
+    skills: [
+      "AI Agents",
+      "LLM Integration",
+      "Prompt Engineering",
+      "RAG",
+      "OpenAI & Anthropic APIs",
+      "Vercel AI SDK",
+      "MCP",
     ],
   },
 ];
