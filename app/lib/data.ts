@@ -125,6 +125,7 @@ export const experience = [
       "Led and developed three concurrent projects across frontend and backend systems, managing two frontend applications and one backend service simultaneously.",
       "Built a secure smart wallet client enabling users to create and manage Web3 communities, onboard members, and distribute tokens and NFTs via airdrops.",
       "Designed and implemented trading bots in Node.js, optimizing strategies to generate consistent profits for the company.",
+      "Developed multiple dApps ( Trading dApp, Swap dApp, Staking dApp )",
     ],
   },
   {
