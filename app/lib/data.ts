@@ -160,6 +160,19 @@ export const experience = [
       "Led frontend development efforts across diverse projects, optimizing user experience and interface consistency to improve development efficiency.",
     ],
   },
+  {
+    role: "Frontend Engineer",
+    company: "Snappfood",
+    companyUrl: "https://www.linkedin.com/company/snappfood/",
+    location: "Iran",
+    period: "Jul 2016 - Dec 2018",
+    points: [
+      "Improved restaurant listing load time from 8s to under 2.5s through rendering and image optimisation.",
+      "Developed client-side chunk caching to improve application performance and user experience.",
+      "Delivered scalable React architecture for the website and PWA, supporting maintainable feature delivery.",
+      "Guided a mid-level engineer through architectural design patterns",
+    ],
+  },
 ];
 
 export const projects = [
