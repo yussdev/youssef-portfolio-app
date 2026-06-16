@@ -5,7 +5,7 @@ export const profile = {
   location: "United Kingdom",
   email: "yussdev@gmail.com",
   github: "https://github.com/yussdev",
-  linkedin: "https://www.linkedin.com/in/youss-js",
+  linkedin: "https://www.linkedin.com/in/yuss-js",
   summary:
     "Senior Software Engineer with 9+ years of experience building scalable web applications. I've delivered and maintained more than 10 production-grade applications across different industries, with a strong understanding of software engineering principles beyond frameworks and tools — deep knowledge of application architecture, system design, and how technologies work from the ground up. Experienced in leading full development lifecycles, from concept and architecture to deployment and production maintenance, across the full stack including backend and Web3.",
   stats: [
