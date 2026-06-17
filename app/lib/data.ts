@@ -227,6 +227,12 @@ export const projects = [
       "CorePass revolutionizes digital identity management, giving you full control over your personal data — deciding how it is shared and with whom for a new level of privacy and security.",
     tech: ["Next.js", "Tailwind", "Vite"],
   },
+  {
+    name: "Museot.fi",
+    url: "https://museot.fi/en.php",
+    description: "Find museums along your route! - Museot.fi",
+    tech: ["Vue.js", "SASS", "Wepback", "PHP"],
+  },
 ];
 
 export const education = [
