@@ -2,7 +2,7 @@ export const profile = {
   name: "Youssef Alijani",
   role: "Senior Software Engineer",
   tagline: "Full-Stack & Web3 Engineer",
-  location: "United Kingdom",
+  location: "Yerevan, Armenia",
   email: "yussdev@gmail.com",
   github: "https://github.com/yussdev",
   linkedin: "https://www.linkedin.com/in/yuss-js",
